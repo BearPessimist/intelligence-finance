@@ -1,0 +1,45 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: 80
+        extension-configs:
+          - data-id: spring-cloud.yaml
+            group: DEV_GROUP
+            refresh: true
+          - data-id: gateway.yaml
+            group: DEV_GROUP
+            refresh: true
+
+
+#server:
+#  port: 80
+#spring:
+#  application:
+#    name: service-gateway
+#  cloud:
+#    nacos:
+#      discovery:
+#        server-addr: localhost:8848
+#
+#spring:
+#  cloud:
+#    gateway:
+#      discovery:
+#        locator:
+#          enabled: true
+#
+#      routes:
+#        - id: service-core
+#          uri: lb://service-core
+#          predicates:
+#            - Path=/*/core/**
+#        - id: service-smsg
+#          uri: lb://service-smsg
+#          predicates:
+#            - Path=/*/smsg/**
+#
+#        - id: service-oss
+#          uri: lb://service-oss
+#          predicates:
+#            - Path=/*/oss/**

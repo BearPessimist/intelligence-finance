@@ -1,0 +1,144 @@
+2021-04-19 16:50:35 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 14064 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 16:50:35 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 16:50:38 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 4.067 seconds (JVM running for 6.09)
+2021-04-19 17:19:37 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 6848 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 17:19:37 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 17:19:40 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 4.308 seconds (JVM running for 6.374)
+2021-04-19 17:19:49 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 7420 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 17:19:49 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 17:19:52 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 3.886 seconds (JVM running for 5.836)
+2021-04-19 17:20:50 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 2044 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 17:20:50 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 17:20:53 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 4.01 seconds (JVM running for 5.834)
+2021-04-19 17:21:28 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 7160 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 17:21:28 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 17:21:31 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 3.54 seconds (JVM running for 5.18)
+2021-04-19 17:30:32 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 17092 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 17:30:32 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 17:30:35 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 3.818 seconds (JVM running for 5.665)
+2021-04-19 17:31:57 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 10148 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-19 17:31:57 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-19 17:32:01 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 4.629 seconds (JVM running for 6.715)
+2021-04-20 00:18:13 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 20388 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-20 00:18:13 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-20 00:18:20 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 8.115 seconds (JVM running for 11.552)
+2021-04-20 00:18:46 [ERROR] http-nio-8130-exec-10 GlobalExceptionHandler.java:33 com.inf.exception.GlobalExceptionHandler Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+org.springframework.web.multipart.MaxUploadSizeExceededException: Maximum upload size exceeded; nested exception is java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.handleParseFailure(StandardMultipartHttpServletRequest.java:122)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.parseRequest(StandardMultipartHttpServletRequest.java:115)
+	at org.springframework.web.multipart.support.StandardMultipartHttpServletRequest.<init>(StandardMultipartHttpServletRequest.java:88)
+	at org.springframework.web.multipart.support.StandardServletMultipartResolver.resolveMultipart(StandardServletMultipartResolver.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.checkMultipart(DispatcherServlet.java:1178)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1012)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalStateException: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2913)
+	at org.apache.catalina.connector.Request.parseParameters(Request.java:3202)
+	at org.apache.catalina.connector.Request.getParameterNames(Request.java:1170)
+	at org.apache.catalina.connector.Request.getParameterMap(Request.java:1149)
+	at org.apache.catalina.connector.RequestFacade.getParameterMap(RequestFacade.java:443)
+	at org.springframework.web.servlet.DispatcherServlet.lambda$logRequest$2(DispatcherServlet.java:964)
+	at org.springframework.core.log.LogFormatUtils.traceDebug(LogFormatUtils.java:86)
+	at org.springframework.web.servlet.DispatcherServlet.logRequest(DispatcherServlet.java:956)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:911)
+	... 38 common frames omitted
+Caused by: org.apache.tomcat.util.http.fileupload.impl.FileSizeLimitExceededException: The field file exceeds its maximum permitted size of 1048576 bytes.
+	at org.apache.tomcat.util.http.fileupload.impl.FileItemStreamImpl$1.raiseError(FileItemStreamImpl.java:114)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.checkLimit(LimitedInputStream.java:76)
+	at org.apache.tomcat.util.http.fileupload.util.LimitedInputStream.read(LimitedInputStream.java:135)
+	at java.base/java.io.FilterInputStream.read(FilterInputStream.java:107)
+	at org.apache.tomcat.util.http.fileupload.util.Streams.copy(Streams.java:98)
+	at org.apache.tomcat.util.http.fileupload.FileUploadBase.parseRequest(FileUploadBase.java:291)
+	at org.apache.catalina.connector.Request.parseParts(Request.java:2869)
+	... 46 common frames omitted
+2021-04-20 00:19:42 [INFO ] main StartupInfoLogger.java:55 com.inf.oss.ServiceOssApplication Starting ServiceOssApplication on Xans with PID 24464 (A:\springboot-project\inf\service-oss\target\classes started by Bear in A:\springboot-project\inf)
+2021-04-20 00:19:42 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-20 00:19:49 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 10.277 seconds (JVM running for 14.633)
+2021-04-22 13:29:43 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 13:29:55 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 16.506 seconds (JVM running for 18.258)
+2021-04-22 14:30:08 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 14:30:20 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 16.9 seconds (JVM running for 20.696)
+2021-04-22 14:39:08 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 14:39:19 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 16.059 seconds (JVM running for 19.06)
+2021-04-22 15:13:29 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 15:13:34 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 8.562 seconds (JVM running for 10.624)
+2021-04-22 18:26:32 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 18:26:39 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 11.121 seconds (JVM running for 13.994)
+2021-04-22 18:33:28 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 18:33:35 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 8.839 seconds (JVM running for 10.53)
+2021-04-22 19:47:25 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 19:47:32 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 9.998 seconds (JVM running for 12.164)
+2021-04-22 19:48:32 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 19:48:37 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 8.537 seconds (JVM running for 10.482)
+2021-04-22 19:51:32 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 19:51:38 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 9.249 seconds (JVM running for 11.239)
+2021-04-22 19:57:43 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-22 19:57:50 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 9.53 seconds (JVM running for 11.634)
+2021-04-23 14:45:22 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-23 14:45:28 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 10.207 seconds (JVM running for 12.698)
+2021-04-24 00:53:46 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-24 00:53:59 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 17.902 seconds (JVM running for 19.782)
+2021-04-24 16:10:57 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-24 16:11:02 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 7.985 seconds (JVM running for 9.499)
+2021-04-24 17:07:14 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-24 17:07:23 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 14.345 seconds (JVM running for 16.862)
+2021-04-24 23:51:40 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-24 23:51:47 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 8.917 seconds (JVM running for 10.789)
+2021-04-25 16:06:53 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-25 16:06:57 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 6.92 seconds (JVM running for 8.11)
+2021-04-25 16:42:34 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-25 16:42:38 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 6.848 seconds (JVM running for 7.8)
+2021-05-05 13:24:07 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-05 13:24:11 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 5.44 seconds (JVM running for 6.261)
+2021-05-06 21:40:45 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-06 21:40:50 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 7.594 seconds (JVM running for 8.943)
+2021-05-09 16:34:47 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-09 16:34:52 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 7.877 seconds (JVM running for 9.235)
+2021-05-10 22:22:52 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-10 22:23:06 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 17.264 seconds (JVM running for 18.73)
+2021-05-11 16:33:49 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-11 16:33:57 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 12.112 seconds (JVM running for 14.596)
+2021-05-12 13:18:13 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-12 13:18:19 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 7.686 seconds (JVM running for 9.197)
+2021-05-12 13:43:43 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-12 13:43:49 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 10.489 seconds (JVM running for 12.989)
+2021-05-12 19:01:35 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-05-12 19:01:54 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 24.168 seconds (JVM running for 26.426)

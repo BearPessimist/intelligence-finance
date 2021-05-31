@@ -1,0 +1,7 @@
+2021-04-22 13:29:02 [INFO ] main StartupInfoLogger.java:61 com.inf.core.ServiceCoreApplication Started ServiceCoreApplication in 13.944 seconds (JVM running for 16.441)
+2021-04-22 13:30:27 [INFO ] http-nio-2222-exec-2 DictServiceImpl.java:111 com.inf.core.service.impl.DictServiceImpl 从数据库中获取数据字典
+2021-04-22 13:30:28 [INFO ] http-nio-2222-exec-2 DictServiceImpl.java:125 com.inf.core.service.impl.DictServiceImpl 将数据字典数据存入redis
+2021-04-22 13:30:30 [INFO ] http-nio-2222-exec-4 DictServiceImpl.java:111 com.inf.core.service.impl.DictServiceImpl 从数据库中获取数据字典
+2021-04-22 13:30:30 [INFO ] http-nio-2222-exec-4 DictServiceImpl.java:125 com.inf.core.service.impl.DictServiceImpl 将数据字典数据存入redis
+2021-04-22 13:30:47 [INFO ] http-nio-2222-exec-10 DictServiceImpl.java:101 com.inf.core.service.impl.DictServiceImpl 从redis中获取数据字典
+2021-04-22 14:29:20 [INFO ] main SpringApplication.java:655 com.inf.core.ServiceCoreApplication The following profiles are active: dev

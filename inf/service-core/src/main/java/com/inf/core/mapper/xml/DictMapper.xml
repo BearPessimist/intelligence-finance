@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC
+        "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.inf.core.mapper.DictMapper">
+
+        <insert id="insertBatch">
+            insert into dict
+            (
+            id ,
+            parent_id ,
+            name ,
+            value ,
+            dict_code
+            ) values
+            <foreach collection="list" item="item" index="index" separator=","> <!-- list为遍历对象的类型。 item调用具体插入的列值,号分割 -->
+            (
+                #{item.id} ,
+                #{item.parentId} ,
+                #{item.name} ,
+                #{item.value} ,
+                #{item.dictCode})
+            </foreach>
+        </insert>
+
+</mapper>

@@ -1,0 +1,8 @@
+2021-04-24 17:07:23 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 14.345 seconds (JVM running for 16.862)
+2021-04-24 23:51:40 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-24 23:51:47 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 8.917 seconds (JVM running for 10.789)
+2021-04-25 16:06:53 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-25 16:06:57 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 6.92 seconds (JVM running for 8.11)
+2021-04-25 16:42:34 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev
+2021-04-25 16:42:38 [INFO ] main StartupInfoLogger.java:61 com.inf.oss.ServiceOssApplication Started ServiceOssApplication in 6.848 seconds (JVM running for 7.8)
+2021-05-05 13:24:07 [INFO ] main SpringApplication.java:655 com.inf.oss.ServiceOssApplication The following profiles are active: dev

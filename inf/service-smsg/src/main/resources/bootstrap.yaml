@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        namespace: 8120
+        extension-configs:
+          - data-id: spring-cloud.yaml
+            group: DEV_GROUP
+            refresh: true
+
+          - data-id: feign.yaml
+            group: DEV_GROUP
+            refresh: true
+
+          - data-id: redis-datasource.yaml
+            group: DEV_GROUP
+            refresh: true
+
+          - data-id: aliyun.yaml
+            group: DEV_GROUP
+            refresh: true
