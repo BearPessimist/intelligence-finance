@@ -1,0 +1,39 @@
+[
+  {
+    "name": "lend",
+    "path": "/lend",
+    "component": "A:\\\\springboot-project\\\\inf-admin\\\\nuxt\\\\nuxt-app\\\\pages\\\\lend\\\\index.vue",
+    "chunkName": "pages/lend/index"
+  },
+  {
+    "path": "/user",
+    "component": "A:\\\\springboot-project\\\\inf-admin\\\\nuxt\\\\nuxt-app\\\\pages\\\\user.vue",
+    "chunkName": "pages/user",
+    "children": [
+      {
+        "name": "user",
+        "path": "",
+        "component": "A:\\\\springboot-project\\\\inf-admin\\\\nuxt\\\\nuxt-app\\\\pages\\\\user\\\\index.vue",
+        "chunkName": "pages/user/index"
+      },
+      {
+        "name": "user-account",
+        "path": "account",
+        "component": "A:\\\\springboot-project\\\\inf-admin\\\\nuxt\\\\nuxt-app\\\\pages\\\\user\\\\account.vue",
+        "chunkName": "pages/user/account"
+      }
+    ]
+  },
+  {
+    "name": "lend-id",
+    "path": "/lend/:id",
+    "component": "A:\\\\springboot-project\\\\inf-admin\\\\nuxt\\\\nuxt-app\\\\pages\\\\lend\\\\_id.vue",
+    "chunkName": "pages/lend/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "A:\\\\springboot-project\\\\inf-admin\\\\nuxt\\\\nuxt-app\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
